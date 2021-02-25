@@ -1,0 +1,360 @@
+* {
+  
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #252a2b;
+}
+
+/*==== NavBar ====*/
+#navBar {
+  width: 100%;
+  height: 30px;
+  line-height: 20px;
+  background-color: #f2f2f2;
+  border: 1px solid #f5f5f5c7;
+  border-radius: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+.sizeBar {
+  margin: 5px 20px;
+}
+.sizeBar a {
+  text-decoration: none;
+  color: #252a2b;
+  font-weight: 600;
+  font-size: 14px;
+}
+#barRight {
+  display: flex;
+  justify-content: space-around;
+}
+#barLeft {
+  font-weight: 400;
+}
+
+/*====goChat====*/
+#goHome {
+  position: fixed;
+  bottom: 30px;
+  right: -60px;
+}
+#goChat {
+  display: flex;
+}
+#goChat a img {
+  width: 70px;
+  height: 70px;
+  border: 1px solid #f2f2f2;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#backHome {
+  font-weight: 700;
+  transform: rotate(-90deg);
+  cursor: pointer;
+}
+#backHome a {
+  text-decoration: none;
+  color: #252a2b;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/*===NavMenu===*/
+#navMenu {
+  margin: 0 40px 0 40px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+#logo a img {
+  width: 110px;
+  height: 60px;
+}
+#menu ul {
+  text-align: center;
+  list-style-type: none;
+}
+.sizeMenu {
+  margin: 10px 30px 0 0;
+  display: inline-table;
+  position: relative;
+}
+.sizeMenu a {
+  text-decoration: none;
+  color: #252a2b;
+  font-weight: 600;
+  font-size: 20px;
+  display: block;
+}
+#menu ul li a:hover {
+  border-bottom: 2px solid #252a2b;
+}
+
+/*===navMiniMenu===*/
+.subMenu {
+  width: 200px;
+  position: absolute;
+  top: 25px;
+  left: -20px;
+  background-color: #ffffff;
+  display: none; 
+}
+
+.subMiniMenu a {
+  margin: 20px;
+  padding-left: 10px;
+  font-size: 14px;
+  color: #807c7c;
+  border: none;
+  text-align: left;
+  font-weight: 600;
+}
+#menu ul li:hover .subMenu {
+  display: block;
+}
+/*===ImageMain===*/
+#imageMain img {
+  display: block;
+  width: 100%;
+}
+
+/*===TieuDe===*/
+#tieuDe {
+  margin: 100px 20px 50px 20px;
+  padding: 0 80px 0 10px;
+}
+#tieuDeTrai a {
+  margin-right: 50px;
+  padding: 10px;
+  text-decoration: none;
+  color: #252a2b;
+  position: relative;
+  bottom: 30px;
+  right: 0px;
+  float: left;
+}
+#line {
+  height: 5px;
+  background-color: #000;
+}
+
+/*===listItems===*/
+#listItems {
+  margin-bottom: 50px;
+  padding: 0px 60px 20px 60px;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+#items {
+  margin: 0 20px 0 20px;
+}
+#items:hover {
+  border: 2px solid #252a2b;
+}
+#inItem {
+  text-align: center;
+  width: 100%;
+}
+#image {
+  margin: 0;
+}
+#image img {
+  width: 98%;
+}
+#infoItems {
+  position: relative;
+}
+
+#caption {
+  color: #ffffff;
+  position: absolute;
+  top: 30px;
+  left: 42%;
+}
+#shop {
+  display: flex;
+  justify-content: space-around;
+}
+
+/*===info Items===*/
+#textItem a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #252a2b;
+  position: absolute;
+  bottom: 40px;
+  left: 10px;
+}
+
+/*===icon Hear===*/
+#heart {
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 100px;
+  right: 10px;
+}
+#heart i:hover {
+  color: red;
+}
+#heart i {
+  font-size: 20px;
+}
+#iconShop i {
+  color: red;
+}
+#cost {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/*=====Ảnh chính 2====*/
+#imageMain2 {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+#imageMainRight {
+  width: 49.5%;
+  height: 100%;
+}
+#imageMainRight img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#imageMainLeft {
+  width: 49.5%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#imageMainLeft img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.imageLeft {
+  width: 100%;
+  height: 49.5%;
+}
+
+/*====listAoDai====*/
+#listAoDai1 {
+  display: flex;
+  flex-wrap:nowrap;
+  justify-content: space-between;
+}
+#listAoDai2 {
+  display: flex;
+  flex-wrap:nowrap;
+  justify-content: space-between;
+}
+#aoDai {
+  margin: 5px; 
+  width: 23%;
+  height: 600px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.image{
+  padding: 5px; 
+  display: block;
+  background-color:#ffffff;
+  width: 100%;
+  height:100%;
+  overflow: hidden;
+}
+.image img{
+  max-width: 100%;
+  height: 100%;
+}
+#textAoDai{
+  background-color:#ffffff;
+  margin-bottom: 20px; 
+  padding: 20px 10px 10px 10px;
+  position: relative;
+}
+#infoAoDai{
+  font-size: 15px;
+  position: absolute;
+  bottom: 45px;
+  left: 5px;
+}
+#iconShop{
+  font-size: 15px;
+  position: absolute;
+  bottom: 10px;
+  left: 5px;
+}
+#costAoDai {
+  font-size: 15px;
+  font-weight: 600;
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+}
+#codeAoDai{
+  font-size: 20px;
+  color:#ffffff;
+  position: relative;
+  top: 55px;
+  left: 100px;
+}
+#aoDai:hover{
+  background-color: #c4c4c4;
+}
+/*===Footer===*/
+#footer{
+  font-size: 12px;
+  background-color:#c4c4c4;
+  display: flex;
+  justify-content: space-around;
+  padding:20px 20px 70px 30px;
+  
+}
+#aboutMe{
+   width: 20%;
+
+}
+#suportClient{
+   width: 10%;
+} 
+#infoMe{
+  width: 30%;
+} 
+#fanPage{
+  width: 20%;
+}
+ 
+.listSuport a {
+  color: #000;
+  text-decoration: none; 
+}
+.listSuport {
+  list-style-type: none;
+  line-height: 20px;
+}
+#suportClient ul {
+   padding-top: 20px;
+   text-align: left;
+}
+#infoMe1{
+  padding-bottom: 30px;
+}
